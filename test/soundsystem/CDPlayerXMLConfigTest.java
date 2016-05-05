@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations="classpath:META-INF/spring/soundsystem.xml")
+@ContextConfiguration(locations="classpath:/soundsystem.xml")
 public class CDPlayerXMLConfigTest {
 
   @Rule
